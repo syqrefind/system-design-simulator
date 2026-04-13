@@ -1,0 +1,35 @@
+{
+  "name": "system-design-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 8080",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "pixi.js": "^8.6.6",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.5",
+    "@vitest/coverage-v8": "^2.1.5",
+    "jsdom": "^25.0.1",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "tailwindcss": "^3.4.14",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47"
+  }
+}
